@@ -2,7 +2,7 @@ export default function Benefits() {
 
   return (
 
-    <section className="bg-[#EDE9E2] w-full py-20 mt-10 md:mt-20 lg:mt-30">
+    <section className="bg-[#EDE9E2] w-full py-20 lg:mt-2">
       <div className="w-[90%] lg:w-[85%] mx-auto text-black">
 
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-16">
