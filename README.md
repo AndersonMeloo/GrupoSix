@@ -82,10 +82,3 @@ gruposix/
    ```
 3. Acesse `http://localhost:3000` no navegador.
 
-
-
-## Autor
-Projeto desenvolvido por GrupoSix.
-
----
-Dúvidas ou sugestões? Abra uma issue ou entre em contato.
