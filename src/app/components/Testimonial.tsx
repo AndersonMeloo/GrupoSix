@@ -83,7 +83,7 @@ export default function TestimonialsSlider() {
         <>
 
             <h1
-                className="text-black text-3xl text-center mt-10 pb-6"
+                className="text-black text-6xl text-center mt-10 pb-6 font-montserrat font-extralight"
             >
                 Avaliações dos
                 <br />
@@ -105,7 +105,7 @@ export default function TestimonialsSlider() {
                                      className="p-6 rounded-xl shadow-md h-full flex flex-col justify-between"
                                      style={{ border: '3px solid #3A6594', backgroundColor: '#f3f7f3' }}
                                 >
-                                    <p className="text-gray-700 mb-4">{t.text}</p>
+                                    <p className="text-gray-700 mb-4 font-nunito">{t.text}</p>
                                     <div className="mt-2">
                                         <div className="flex gap-1 mb-1">
                                             <Star className="w-4 h-4 text-yellow-400" />
@@ -114,8 +114,8 @@ export default function TestimonialsSlider() {
                                             <Star className="w-4 h-4 text-yellow-400" />
                                             <Star className="w-4 h-4 text-yellow-400" />
                                         </div>
-                                        <p className="font-bold text-gray-900">{t.name}</p>
-                                        <p className="text-gray-500 text-sm">{t.role}</p>
+                                        <p className="font-bold text-gray-900 font-montserrat">{t.name}</p>
+                                        <p className="text-gray-500 text-sm font-nunito">{t.role}</p>
                                     </div>
                                 </div>
                             </div>
