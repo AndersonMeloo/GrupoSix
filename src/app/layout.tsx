@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     email: true,
     telephone: true,
     address: true,
-  }
+  },
 };
 
 export default function RootLayout({
