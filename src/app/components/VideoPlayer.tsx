@@ -2,8 +2,6 @@
  * Componente VideoPlayer
  */
 
-import React from 'react';
-
 interface VideoPlayerProps {
   url: string;
   title?: string;

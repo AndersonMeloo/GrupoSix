@@ -30,14 +30,14 @@ export default function StatsList() {
 
   return (
 
-    <div className="flex flex-col sm:flex-row justify-evenly items-center gap-6 px-4 sm:px-0 text-center mt-4 pb-4">
+    <div className="flex flex-col sm:flex-row justify-evenly items-center gap-6 px-4 sm:px-0 text-center mt-4 pb-4 font-nunito">
       {stats.map((item, index) => (
         <div key={index}>
-          <div className="flex justify-center items-center text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">
+          <div className="flex justify-center items-center text-xl sm:text-2xl md:text-3xl font-medium text-gray-900">
             {item.icon}
             {item.value}
           </div>
-          <p className="text-gray-500 text-sm sm:text-base mt-1">{item.label}</p>
+          <p className="text-gray-500 text-sm sm:text-base mt-1 font-montserrat">{item.label}</p>
         </div>
       ))}
     </div>
