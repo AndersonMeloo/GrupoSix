@@ -37,14 +37,14 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: 'Grupo Six',
   description:
-    'Domine seu foco com NeuroFocus Max. Suplemento natural premium que aumenta concentração, memória e elimina fadiga mental. 30 dias de garantia. Entrega rápida.',
+    'Domine seu foco com GrupoFix. Suplemento natural premium que aumenta concentração, memória e elimina fadiga mental. 30 dias de garantia. Entrega rápida.',
   keywords: [
     'suplemento foco',
     'foco e memória',
     'concentração',
     'nootropicos naturais',
     'suplemento concentração',
-    'NeuroFocus Max',
+    'GrupoFix',
   ],
   authors: [{ name: 'Anderson Rodrigues de Melo' }],
   creator: 'Anderson Melo',
