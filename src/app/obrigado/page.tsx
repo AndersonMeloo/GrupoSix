@@ -4,17 +4,20 @@ import React, { useEffect, Suspense, useState } from 'react';
 import Link from 'next/link';
 import { Footer } from '../components/Footer';
 import { useUTMParams } from '../hooks/useUTMParams';
+import { ChevronDown } from 'lucide-react';
 
 function ThankYouContent() {
     const { utmParams } = useUTMParams();
 
     const [orderId, setOrderId] = useState<string>('');
     useEffect(() => {
+
         const id = `#NF-2024-${Math.random().toString(36).substring(2, 10).toUpperCase()}`;
         setOrderId(id);
     }, []);
 
     useEffect(() => {
+
         type GtagFn = (...args: unknown[]) => void;
         const win = typeof window !== 'undefined' ? (window as Window & { gtag?: GtagFn }) : undefined;
 
@@ -29,7 +32,7 @@ function ThankYouContent() {
     }, [utmParams]);
 
     return (
-        
+
         <>
             <section className="flex-1 py-16 px-4 sm:px-6 lg:px-12 bg-gradient-to-b from-gray-50 to-white">
                 <div className="max-w-5xl mx-auto text-center">
@@ -41,22 +44,18 @@ function ThankYouContent() {
                         </div>
                     </div>
 
-                    {/* <Headline as="h1" centered subtitle="Comece a aproveitar seu produto agora!">
-            Compra Confirmada! 🎉
-          </Headline> */}
-
                     <div className="grid md:grid-cols-2 gap-6 bg-white shadow-lg rounded-xl p-8 my-12 border-l-4 border-green-500">
                         <div>
-                            <h3 className="text-sm font-semibold text-gray-500 uppercase mb-1">Número do Pedido</h3>
-                            <p className="text-2xl font-bold text-gray-900">{orderId}</p>
+                            <h3 className="text-sm font-semibold text-gray-500 uppercase mb-1 font-nunito">Número do Pedido</h3>
+                            <p className="text-2xl font-medium text-gray-900 font-montserrat">{orderId}</p>
                         </div>
                         <div>
-                            <h3 className="text-sm font-semibold text-gray-500 uppercase mb-1">Status</h3>
-                            <p className="text-2xl font-bold text-green-600">✓ Pago com Sucesso</p>
+                            <h3 className="text-sm font-semibold text-gray-500 uppercase mb-1 font-nunito">Status</h3>
+                            <p className="text-2xl font-medium text-green-600 font-montserrat">✓ Pago com Sucesso</p>
                         </div>
                     </div>
 
-                    <div className="grid md:grid-cols-3 gap-6 my-12">
+                    <div className="grid md:grid-cols-3 gap-6 my-12 font-montserrat">
                         {[
                             {
                                 emoji: '📧',
@@ -83,8 +82,8 @@ function ThankYouContent() {
                     </div>
 
                     <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-8 my-12 shadow-inner">
-                        <h3 className="text-2xl font-bold text-gray-900 mb-6">Como usar NeuroFocus Max</h3>
-                        <div className="grid md:grid-cols-3 gap-6">
+                        <h3 className="text-2xl font-bold text-gray-900 mb-6 font-montserrat">Como usar</h3>
+                        <div className="grid md:grid-cols-3 gap-6 font-montserrat">
                             {[
                                 {
                                     step: 1,
@@ -104,46 +103,41 @@ function ThankYouContent() {
                             ].map((item) => (
                                 <div key={item.step}>
                                     <div className="inline-flex items-center justify-center w-10 h-10 bg-green-500 text-white rounded-full font-bold mb-4">{item.step}</div>
-                                    <h4 className="font-bold text-gray-900 mb-2">{item.title}</h4>
+                                    <h4 className="font-bold text-gray-900 mb-2 font-nunito">{item.title}</h4>
                                     <p className="text-gray-600 text-sm">{item.text}</p>
                                 </div>
                             ))}
                         </div>
                     </div>
 
-                    <div className="bg-white rounded-xl border-2 border-green-200 p-8 my-12 shadow-md">
-                        <p className="text-gray-700 text-lg mb-2">
-                            Lembre-se: <strong>30 dias de garantia 100% de volta</strong>. Se não ficar satisfeito, devolvemos seu dinheiro.
-                        </p>
-                        <p className="text-gray-600">Estamos confiantes que você vai amar NeuroFocus Max!</p>
-                    </div>
-
                     <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-8 my-12 shadow-md">
-                        <h3 className="text-xl font-bold text-gray-900 mb-4">Precisa de Ajuda?</h3>
-                        <p className="text-gray-700 mb-6">Suporte 24/7 para tirar suas dúvidas</p>
-                        <div className="flex flex-col md:flex-row gap-4 justify-center">
-                            <a href="https://wa.me/5511988370794" target="_blank" rel="noopener noreferrer" className="inline-block bg-green-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-600 transition">
-                                💬 WhatsApp
+                        <h3 className="text-xl font-bold text-gray-900 mb-4 font-nunito">Precisa de Ajuda?</h3>
+                        <p className="text-gray-700 mb-6 font-nunito">Suporte das 09h ás 18h 
+                            <br />
+                            para tirar suas dúvidas</p>
+                        <div className="flex flex-col md:flex-row gap-4 justify-center font-montserrat">
+                            <a href="https://wa.me/5511988730794" target="_blank" rel="noopener noreferrer" className="inline-block bg-green-500 text-white font-light py-3 px-4 rounded-lg hover:bg-green-600 transition">
+                                WhatsApp
                             </a>
-                            <a href="mailto:andersonrodriguesmelo@hotmail.com" className="inline-block bg-blue-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-600 transition">
-                                📧 Email
+                            <a href="mailto:andersonrodriguesmelo@hotmail.com" className="inline-block bg-blue-500 text-white font-light py-3 px-8 rounded-lg hover:bg-blue-600 transition">
+                                Email
                             </a>
                         </div>
                     </div>
 
                     <div className="my-12 text-center">
-                        <p className="text-gray-700 mb-4">Compartilhe seus resultados com outras pessoas!</p>
-                        <Link href="/" className="inline-block bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold py-4 px-12 rounded-xl shadow-lg hover:from-green-600 hover:to-emerald-700 transition-all duration-300">
+                        <p className="text-gray-700 mb-4 font-montserrat">Compartilhe seus resultados com outras pessoas!</p>
+                        <Link href="/" className="inline-block bg-gradient-to-r from-green-500 to-emerald-600 text-white font-medium py-4 px-12 rounded-xl shadow-lg hover:from-green-600 hover:to-emerald-700 transition-all duration-300 font-nunito">
                             Voltar à Página Principal
                         </Link>
                     </div>
                 </div>
             </section>
 
-            <section className="py-16 bg-white">
+            <section className="py-10 bg-white">
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Dúvidas Frequentes</h2>
-                    <div className="space-y-6">
+                    <h2 className="text-3xl md:text-4xl font-medium text-center text-gray-900 mb-12 font-montserrat">Dúvidas Frequentes</h2>
+                    <div className="space-y-6 font-nunito">
                         {[
                             {
                                 question: 'Quando vou receber meu NeuroFocus Max?',
@@ -163,8 +157,10 @@ function ThankYouContent() {
                             }
                         ].map((faq) => (
                             <details key={faq.question} className="bg-gray-50 rounded-xl p-6 cursor-pointer shadow-sm hover:shadow-md transition">
-                                <summary className="font-bold text-gray-900 flex justify-between items-center">{faq.question} <span className="text-gray-600">+</span></summary>
-                                <p className="text-gray-700 mt-4">{faq.answer}</p>
+                                <summary className="font-bold text-gray-900 flex justify-between items-center">{faq.question} <span className="text-gray-600">
+                                    <ChevronDown size={18} />
+                                </span></summary>
+                                <p className="text-gray-700 mt-4 font-nunito">{faq.answer}</p>
                             </details>
                         ))}
                     </div>
