@@ -35,7 +35,7 @@ Captura automática e persistência dos seguintes parâmetros:
 - utm_campaign
 - utm_term
 - utm_content
-Permite análise de:
+### Permite análise de:
 - Origem do tráfego
 - Performance de campanhas
 - Variação de criativos
