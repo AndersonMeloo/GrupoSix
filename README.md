@@ -1,13 +1,53 @@
 # GrupoSix -  Checkout
 
-Este projeto é uma landing page desenvolvida com Next.js e Tailwind CSS, focada em apresentar ofertas, benefícios e métricas de um produto ou serviço, além de realizar o processo de checkout.
+Este projeto é uma landing page focada em apresentar ofertas, benefícios e métricas de um produto ou serviço, além de realizar o processo de checkout.
 
-## Funcionalidades
+## Tecnologias
+- Next.js – Otimização de SEO, roteamento baseado em arquivos e alta performance com renderização híbrida
+- TypeScript – Tipagem estática para maior segurança, escalabilidade e redução de erros
+- Tailwind CSS – Estilização ágil, design consistente e alta produtividade
+- Arquitetura baseada em componentes – Reutilização, organização e escalabilidade
+- Hooks customizados – Separação de responsabilidades e melhor controle da lógica de negócio
+
+## Headline Principal Estratégica
+A landing page foi estruturada com uma headline forte e orientada a benefício, com foco em:
+
+- Comunicação clara da proposta de valor
+- Aplicação de princípios de copywriting
+- Uso estratégico de CTAs (Call to Action)
+- Captura e persistência de UTMs para rastreamento de campanhas
+
+--- 
+
+## CTAs (Call to Action) Estratégicos
+Captura automática e persistência dos seguintes parâmetros:
+
+- Botões posicionados em pontos estratégicos da página
+- Comunicação orientada à ação
+- Direcionamento direto para o checkout
+- Foco em reduzir fricção no processo de compra
+
+## 📊 Rastreamento com UTM
+Captura automática e persistência dos seguintes parâmetros:
+
+- utm_source
+- utm_medium
+- utm_campaign
+- utm_term
+- utm_content
+Permite análise de:
+- Origem do tráfego
+- Performance de campanhas
+- Variação de criativos
+- Efetividade de canais
+
+## 🧱 Funcionalidades
 - Apresentação de métricas e benefícios
-- Exibição de depoimentos e vídeo
-- Página de checkout para compra
+- Seção de depoimentos
+- Página de checkout
 - Página de agradecimento pós-compra
-- Captação de parâmetros UTM para rastreamento de campanhas
+- Captura automática de UTMs
+- Estrutura organizada e escalável
 
 ## Estrutura do Projeto
 ```
@@ -31,13 +71,6 @@ gruposix/
 └── README.md
 ```
 
-## Tecnologias Utilizadas
-- Next.js
-- React
-- Tailwind CSS
-- TypeScript
-- Lucide Icons
-
 ## Como rodar o projeto
 1. Instale as dependências:
    ```bash
@@ -49,8 +82,7 @@ gruposix/
    ```
 3. Acesse `http://localhost:3000` no navegador.
 
-## Deploy
-O projeto está pronto para deploy na Vercel. Basta conectar o repositório e seguir as instruções da plataforma.
+
 
 ## Autor
 Projeto desenvolvido por GrupoSix.
