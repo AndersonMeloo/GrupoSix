@@ -1,11 +1,13 @@
 "use client";
 
+
 import { Users, Star, Shield } from "lucide-react";
+import { ReactNode } from "react";
 
 interface StatItem {
   value: string;
   label: string;
-  icon: JSX.Element;
+  icon: ReactNode;
 }
 
 const stats: StatItem[] = [
