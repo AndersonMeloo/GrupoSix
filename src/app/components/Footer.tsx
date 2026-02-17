@@ -42,7 +42,7 @@ export function Footer({ disclaimerText }: FooterProps) {
 
                         <div>
                             <h3 className="text-blue-600 font-semibold mb-4 uppercase tracking-wide text-sm">
-                                Info
+                                Informações Legais
                             </h3>
                             <ul className="space-y-3 text-sm">
                                 <li><Link href="#">Política de Privacidade</Link></li>
