@@ -11,22 +11,22 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
     {
-        text: "Comecei a usar NeuroFocus Max há 2 meses e já sinto uma diferença notável na minha concentração durante o trabalho. Consigo fazer mais tarefas em menos tempo!",
+        text: "Comecei a usar GrupoFix Max há 2 meses e já sinto uma diferença notável na minha concentração durante o trabalho. Consigo fazer mais tarefas em menos tempo!",
         name: "João Silva",
         role: "Analista de Dados",
     },
     {
-        text: "Meu desempenho criativo melhorou muito com NeuroFocus Max. Sinto-me mais motivada e focada em meus projetos.",
+        text: "Meu desempenho criativo melhorou muito com GrupoFix Max. Sinto-me mais motivada e focada em meus projetos.",
         name: "Maria Santos",
         role: "Designer Gráfica",
     },
     {
-        text: "Recomendo demais! NeuroFocus Max me ajudou a melhorar minhas notas na faculdade. A memória está muito mais aguçada.",
+        text: "Recomendo demais! GrupoFix Max me ajudou a melhorar minhas notas na faculdade. A memória está muito mais aguçada.",
         name: "Carlos Oliveira",
         role: "Estudante de Engenharia",
     },
     {
-        text: "Como empreendedora, preciso estar sempre focada. NeuroFocus Max é essencial na minha rotina diária!",
+        text: "Como empreendedora, preciso estar sempre focada. GrupoFix Max é essencial na minha rotina diária!",
         name: "Ana Costa",
         role: "Empreendedora",
     },
@@ -36,7 +36,7 @@ const testimonials: Testimonial[] = [
         role: "Programador",
     },
     {
-        text: "NeuroFocus Max transformou minha produtividade. Estou muito mais confiante e focada em minhas metas diárias.",
+        text: "GrupoFix Max transformou minha produtividade. Estou muito mais confiante e focada em minhas metas diárias.",
         name: "Isabella Torres",
         role: "Gerente de Projetos",
     },
