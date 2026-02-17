@@ -7,7 +7,6 @@ import { useUTMParams } from "../hooks/useUTMParams";
 import { generatedUTMQueryString } from '../utils/utm';
 import Metrics from "./Metrics";
 import TestimonialsSlider from "./Testimonial";
-import { Produtos } from "./Produtos";
 import { Offer } from "./Offer";
 import Headline from "./Headline";
 
