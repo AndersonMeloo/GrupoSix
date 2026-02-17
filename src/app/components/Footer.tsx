@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Instagram, Youtube, Linkedin } from "lucide-react";
+import { Instagram, Youtube, Linkedin, AppWindow } from "lucide-react";
 
 interface FooterProps {
     disclaimerText?: string;
@@ -27,7 +27,7 @@ export function Footer({ disclaimerText }: FooterProps) {
                             </p>
                         </div>
 
-                        <div>
+                        {/* <div>
                             <h3 className="text-blue-600 font-semibold mb-4 uppercase tracking-wide text-sm">
                                 Company
                             </h3>
@@ -38,7 +38,7 @@ export function Footer({ disclaimerText }: FooterProps) {
                                 <li><Link href="#">Blog</Link></li>
                                 <li><Link href="#">Contato</Link></li>
                             </ul>
-                        </div>
+                        </div> */}
 
                         <div>
                             <h3 className="text-blue-600 font-semibold mb-4 uppercase tracking-wide text-sm">
@@ -54,18 +54,18 @@ export function Footer({ disclaimerText }: FooterProps) {
 
                         <div>
                             <h3 className="text-blue-600 font-semibold mb-4 uppercase tracking-wide text-sm">
-                                Connect
+                                Redes Sociais
                             </h3>
 
                             <div className="flex gap-4 mb-6">
                                 <a
-                                    href="https://www.instagram.com/andersonr_melo/"
+                                    href="https://portfolio-anderson-nine.vercel.app/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label="Instagram"
                                     className="text-gray-700 hover:text-blue-600 transition"
                                 >
-                                    <Instagram className="w-5 h-5" />
+                                    <AppWindow />
                                 </a>
 
                                 <a
