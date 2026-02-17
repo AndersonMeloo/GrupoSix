@@ -70,7 +70,7 @@ export function extractUTMFromURL(): UTMParams {
 
     const utmKeys: (keyof UTMParams)[] = [
         'utm_source',
-        'utm_mediun',
+        'utm_medium',
         'utm_content',
         'utm_term'
     ]
