@@ -65,7 +65,7 @@ function ThankYouContent() {
                             {
                                 emoji: '📦',
                                 title: 'Preparando seu Pedido',
-                                text: 'Seu NeuroFocus Max será enviado em até 24h.'
+                                text: 'Seu GrupoFix Max será enviado em até 24h.'
                             },
                             {
                                 emoji: '🚚',
@@ -140,7 +140,7 @@ function ThankYouContent() {
                     <div className="space-y-6 font-nunito">
                         {[
                             {
-                                question: 'Quando vou receber meu NeuroFocus Max?',
+                                question: 'Quando vou receber meu GrupoFix?',
                                 answer: 'Após confirmação do pagamento, envio em até 24h. Entrega em 2-3 dias úteis com código de rastreamento.'
                             },
                             {
@@ -149,7 +149,7 @@ function ThankYouContent() {
                             },
                             {
                                 question: 'Tem efeitos colaterais?',
-                                answer: 'NeuroFocus Max é natural, sem cafeína ou ingredientes artificiais. Sempre consulte seu médico.'
+                                answer: 'GrupoFix é natural, sem cafeína ou ingredientes artificiais. Sempre consulte seu médico.'
                             },
                             {
                                 question: 'Quanto tempo para começar a fazer efeito?',
