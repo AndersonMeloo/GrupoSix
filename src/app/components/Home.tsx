@@ -9,6 +9,7 @@ import Metrics from "./Metrics";
 import TestimonialsSlider from "./Testimonial";
 import { Produtos } from "./Produtos";
 import { Offer } from "./Offer";
+import Headline from "./Headline";
 
 export default function HomeContent() {
 
@@ -31,13 +32,7 @@ export default function HomeContent() {
 
                     <div className="flex flex-col md:flex-row items-center md:items-center justify-evenly gap-6 md:gap-20 mb-12 md:mb-20 text-center md:text-left">
 
-                        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight font-montserrat">
-                            Domine seu foco,
-                        </h1>
-
-                        <p className="text-lg sm:text-xl md:text-2xl font-nunito">
-                            com uma única cápsula ao dia
-                        </p>
+                        <Headline text="Transforme sua vida hoje: descubra o método inovador que já mudou milhares de histórias!" />
 
                     </div>
 
