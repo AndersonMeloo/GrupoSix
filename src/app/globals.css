@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.font-nunito {
+  font-family: var(--font-nunito);
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
