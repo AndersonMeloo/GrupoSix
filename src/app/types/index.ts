@@ -1,6 +1,6 @@
 export interface UTMParams {
     utm_source?: string;
-    utm_mediun?: string;
+    utm_medium?: string;
     utm_content?: string;
     utm_term?: string;
 }
