@@ -1,4 +1,4 @@
-# GrupoSix -  Checkout
+#  Landing Page - Checkout
 
 Este projeto é uma landing page focada em apresentar ofertas, benefícios e métricas de um produto ou serviço, além de realizar o processo de checkout.
 
